@@ -1,7 +1,7 @@
 var vm = new Vue({
     el: "#nav-container",
     data: {
-        insta: "https://www.instagram.com/111r.20607/",
+        insta: "https://www.instagram.com/1112.20607/",
         github: "https://github.com/M2Robot",
         imgdata: ["#", "#", "#"]
     },
