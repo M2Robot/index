@@ -120,18 +120,6 @@ div.gallery-images .img-box img {
     margin: auto;
 }
 
-div#text {
-    margin: 0rem 20rem;
-    text-align: center;
-}
-
-div#text p {
-    direction: rtl;
-    font-size: x-large;
-    line-height: 3rem;
-    color: var(--mode-color);
-}
-
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
 .hidden {
   opacity:0;
