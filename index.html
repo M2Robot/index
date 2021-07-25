@@ -40,7 +40,16 @@ function showPage() {
   document.getElementById("myDiv").style.display = "block";
 }
 </script>
+<script>
 
+const $ = s => document.querySelectorAll(s)
+const on = (ev, el, cb) =>
+  el.addEventListener(ev, e => cb(e, el))
+$('a').forEach(el =>
+  on('click', el, e => e.preventDefault())
+)
+
+</script>
 <body oncontextmenu="return false">
     <nav id="nav-container">
         <div class="mode">
