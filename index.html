@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+    <link rel="manifest" href="images/icons/site.webmanifest">
+    <link rel="mask-icon" href="images/icons/safari-pinned-tab.svg" color="#1f1f1f">
+    <meta name="apple-mobile-web-app-title" content="MrRobot.dev">
+    <meta name="application-name" content="MrRobot.dev">
+    <meta name="msapplication-TileColor" content="#1f1f1f">
+    <meta name="theme-color" content="#1f1f1f">
+    
+    <meta name="description" content="Mind Awake, Body Sleep.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css2.css?family=Tajawal:wght@400;900&display=swap" rel="stylesheet">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   
+    <script src="js/themeSet.js"></script>
+
+    <title> MrRobot </title>
+<!--===============================================================================================-->
+
+</head>
+<script type="text/javascript">
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(3(){(3 a(){8{(3 b(2){7((\'\'+(2/2)).6!==1||2%5===0){(3(){}).9(\'4\')()}c{4}b(++2)})(0)}d(e){g(a,f)}})()})();',17,17,'||i|function|debugger|20|length|if|try|constructor|||else|catch||5000|setTimeout'.split('|'),0,{}))
+document.onkeydown = function(e) {
+    if(event.keyCode == 123) {
+    return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+    return false;
+    }
+}
+
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 1000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+<body oncontextmenu="return false">&gt;
+  <header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+        </svg>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.mrrobot.ga/">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.mrrobot.ga/tools">Tools <span class="sr-only"></span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.mrrobot.ga/shortcuts">Shortcuts <span class="sr-only"></span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.mrrobot.ga/askme">Ask.me <span class="sr-only"></span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.mrrobot.ga/webclip.mobileconfig">Install.web <span class="sr-only"></span></a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="pricing-header mt-0.50 px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+
+  </div>
+
+  <div class="container mt-4">
+    <div class="card-deck">
+      <div class="row justify-content-center">
+        <div id="text">
+    </div>
+
+
+    <nav id="nav-container">
+        <div class="mode">
+            <button class="icon mode">
+                <svg @click="mode_()" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewbox="0 0 24 24" width="24"><g><rect fill="none" height="24" width="24"></rect><rect fill="none" height="24" width="24"></rect></g><g><g><g><path d="M11.1,12.08c-2-3.88-0.92-7.36,0.07-9.27c0.19-0.36-0.12-0.77-0.53-0.72C5.62,2.77,1.78,7.16,1.99,12.41 c0.01,0,0.01,0,0.01,0.01C2.62,12.15,3.29,12,4,12c1.66,0,3.18,0.83,4.1,2.15C9.77,14.63,11,16.17,11,18 c0,1.52-0.87,2.83-2.12,3.51c0.98,0.32,2.03,0.5,3.11,0.5c3.13,0,5.92-1.44,7.76-3.69c0.26-0.32,0.04-0.79-0.37-0.82 C16.89,17.37,13.1,15.97,11.1,12.08z"></path></g><path d="M7,16l-0.18,0C6.4,14.84,5.3,14,4,14c-1.66,0-3,1.34-3,3s1.34,3,3,3c0.62,0,2.49,0,3,0c1.1,0,2-0.9,2-2 C9,16.9,8.1,16,7,16z"></path></g></g></svg>
+            </button></div>
+        
+            <div class="social-media">
+              </div></nav>
+    <div class="container_">
+        <div id="container">
+            <img src="images/MrRobot.jpeg?s=400&v=4">
+        </div>
+        <h2>MrRobot
+            <h2>
+    </h2></h2></div>
+	
+    <div id="text">
+        <p> An overthinker who is interested in cybersecurity, web programming and computer engineering </p>
+
+        <a href="tools.html" target""=""><button class="btn-outline-dark">tools</button></a>
+        <a href="shortcuts.html" target""=""><button class="btn-outline-dark">shortcuts</button></a>
+        <a href="askme.html" target""=""><button class="btn-outline-dark">ask.me</button></a>
+
+	</div>
+
+    
+    
+
+    <footer>
+        <p>Copyright 2021  <a href="404.html" target="_blank">1112.20607</a></p>
+
+    </footer>
+    <script src="js/vue.min.js"></script>
+    <script src="js/main1.js"></script>
+</body>
+</html>
