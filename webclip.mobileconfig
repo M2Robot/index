@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>MrRobot</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>Icon</key>
+			<data>/9j/4AAQSkZJRgABAQAASABIAAD/4QC8RXhpZgAATU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUA
+AAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAA
+AEgAAAABAAeQAAAHAAAABDAyMjGRAQAHAAAABAECAwCgAAAHAAAABDAxMDCgAQADAAAAAQABAACg
+AgAEAAAAAQAAALSgAwAEAAAAAQAAALSkBgADAAAAAQAAAAAAAAAA/8AAEQgAtAC0AwEiAAIRAQMR
+Af/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQEC
+AwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNE
+RUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqy
+s7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEB
+AQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEH
+YXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZX
+WFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLD
+xMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/bAEMAAgICAgICAwICAwUDAwMFBgUF
+BQUGCAYGBgYGCAoICAgICAgKCgoKCgoKCgwMDAwMDA4ODg4ODw8PDw8PDw8PD//bAEMBAgICBAQE
+BwQEBxALCQsQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQ
+EP/dAAQADP/aAAwDAQACEQMRAD8A/n/ooooAKKKKACiinBfWgBtO209VJ4UVIYwv3jQBDtFLgU4k
+dhSZzQAlFFFABSYFLRQA3bSEEU+igCOin4FNIxQAlFFFABRRRQAUUUUAf//Q/n/ooooAKOtHWngY
+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</data>
+			<key>IgnoreManifestScope</key>
+			<true/>
+			<key>IsRemovable</key>
+			<true/>
+			<key>Label</key>
+			<string>MrRobot</string>
+			<key>PayloadDescription</key>
+			<string>Custom IOS apps configuration.</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Clip (MrRobot-Website)</string>
+			<key>PayloadIdentifier</key>
+			<string>net.configuration.mrrobot</string>
+			<key>PayloadOrganization</key>
+			<string>MrRobot</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>e3433f15-a21b-4c3b-942a-4a6e5f728adf</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<false/>
+			<key>URL</key>
+			<string>https://www.mrrobot.ga/</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Custom IOS apps configuration.</string>
+	<key>PayloadDisplayName</key>
+	<string>MrRobot-Website</string>
+	<key>PayloadIdentifier</key>
+	<string>net.configuration.mrrobot</string>
+	<key>PayloadOrganization</key>
+	<string>MrRobot</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>440ce722-c527-4bb8-b22c-8dfd5020a059</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

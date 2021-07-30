@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Alata';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/tajawal/v4/Iura6YBj_oCad4k1rzY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Alata';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/tajawal/v4/Iurf6YBj_oCad4k1l7KmLrY.ttf) format('truetype');
+}
