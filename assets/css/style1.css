@@ -2,10 +2,10 @@ body{
     background-color: #1E1E21;
 }
 body * .ara{
-    font-family: 'Trebuchet MS', sans-serif;
+font-family: "SF Pro Display", BlinkMacSystemFont, -apple-system, SF UI Text, Helvetica Neue, sans-serif!important;
 }
 nav{
-    font-family: 'Trebuchet MS', sans-serif;
+font-family: "SF Pro Display", BlinkMacSystemFont, -apple-system, SF UI Text, Helvetica Neue, sans-serif!important;
     background-color: #161616;
 }
 body > div.pricing-header{
