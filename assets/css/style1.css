@@ -32,7 +32,7 @@ svg.icon{
     background: linear-gradient(45deg, #FD0000, #BA00B4);
 }
 .ara{
-    direction: rtl;
+    direction: ltr;
 }
 nav a[href]:hover{
     color: #9c9c9c;
