@@ -23,7 +23,10 @@ nav a, button, p{
     text-align: center;
     direction:ltr;
 }
-div.pricing-ku-txt1{
+div.ku-txt1{
+    direction:rtl;
+}
+ku-txt1{
     direction:rtl;
 }
 svg {
