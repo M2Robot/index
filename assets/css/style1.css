@@ -21,6 +21,7 @@ nav a, button, p{
 }
 .card-body p, .card-body h5{
     text-align: center;
+    direction:ltr;
 }
 svg {
     fill:#fff;
