@@ -3,32 +3,32 @@ full features website ~ do not clone it!
 
 www.MrRobot.ga > 
 
-English | Kurdish
-index.html | kurdish.html
-tools.html | ku-tools.html
-shortcuts.html | ku-shortcuts.html
+English | Kurdish<br>
+index.html | kurdish.html<br>
+tools.html | ku-tools.html<br>
+shortcuts.html | ku-shortcuts.html<br>
 
 --
 
-askme.html
-error.html
-thanks.html
+askme.html<br>
+error.html<br>
+thanks.html<br>
 
 --
 
-webclip.mobileconfig
-README.md
-CNAME
+webclip.mobileconfig<br>
+README.md<br>
+CNAME<br>
 
 ~
 
 FOLDER >
 
-- ask.me
-- assets
-- cdn-cgi
-- css
-- js
-- images
+- ask.me<br>
+- assets<br>
+- cdn-cgi<br>
+- css<br>
+- js<br>
+- images<br>
 
 <!----x---->
