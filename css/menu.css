@@ -7,8 +7,10 @@ font-family: 'Roboto Mono', monospace;
 
 .nav {
 color: white;
+font-family: 'Roboto Mono', monospace;
 }
 .nav__trigger-finger {
+font-family: 'Roboto Mono', monospace;
 position: fixed;
 top: 0;
 right: 0;
@@ -90,7 +92,7 @@ transform: none;
 transition: 0.5s cubic-bezier(0.75, 0, 0.25, 1);
 }
 .nav__list {
- font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Mono', monospace;
 position: fixed;
 overflow-y: scroll;
 top: 0;
