@@ -154,6 +154,31 @@ button {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
+    footer p {
+      position: fixed;
+    direction: ltr;
+    font-size: medium;
+    color: var(--mode-color);
+    padding: 2rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+	   
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    }
+
+    footer>p a {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration-line: none;
+    color: crimson;
+
+    }
+
+    footer>p span {
+    color: crimson;
+    }
+
 @media (hover: hover) {
     [class*="icon"] svg {
         cursor: pointer;
