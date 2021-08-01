@@ -155,17 +155,20 @@ button {
 }
 
 footer p {
-    direction: rtl;
+    direction: ltr;
     font-size: medium;
     line-height: 2rem;
-    color: #fff;
+    color: var(--mode-color);
     text-align: center;
-    padding: 0.25em 0em;
+    padding-bottom: 1.5em;
 }
-footer > p span {
+
+footer>p a {
+    text-decoration-line: none;
     color: crimson;
 }
-footer > p a {
+
+footer>p span {
     color: crimson;
 }
 
