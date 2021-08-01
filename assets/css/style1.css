@@ -50,30 +50,25 @@ div.card{
     width: calc(100% - 60px);
 }
 
-   footer p {
-      position: fixed;
+footer p {
     direction: ltr;
     font-size: medium;
+    line-height: 2rem;
     color: var(--mode-color);
-    padding: 2rem;
-    left: 0;
-    bottom: 0;
-    right: 0;
-	   
+    padding: 0.25em 0em;
+
     font-family: 'Roboto Mono', monospace;
     text-align: center;
-    }
 
-    footer>p a {
+}
+footer > p span {
+    color: crimson;
+}
+footer > p a {
     font-family: 'Roboto Mono', monospace;
     text-decoration-line: none;
     color: crimson;
-
-    }
-
-    footer>p span {
-    color: crimson;
-    }
+}
 
 @media (hover: none){
     a {
