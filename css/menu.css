@@ -1,16 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 * {
 margin: 0;
 box-sizing: border-box;
-font-family: 'Roboto Mono', monospace;
 }
 
 .nav {
 color: white;
-font-family: 'Roboto Mono', monospace;
 }
 .nav__trigger-finger {
-font-family: 'Roboto Mono', monospace;
 position: fixed;
 top: 0;
 right: 0;
@@ -92,7 +88,6 @@ transform: none;
 transition: 0.5s cubic-bezier(0.75, 0, 0.25, 1);
 }
 .nav__list {
-font-family: 'Roboto Mono', monospace;
 position: fixed;
 overflow-y: scroll;
 top: 0;
@@ -129,7 +124,6 @@ border-top-color: white;
 transition: 0.4s cubic-bezier(0.75, 0, 0.25, 1);
 }
 .nav__link {
-font-family: 'Roboto Mono', monospace;
 text-decoration: none;
 color: inherit;
 }
