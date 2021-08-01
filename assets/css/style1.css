@@ -54,7 +54,7 @@ footer p {
     direction: ltr;
     font-size: medium;
     line-height: 2rem;
-    color: var(--mode-color);
+    color: fff;
     padding: 0.25em 0em;
 
     font-family: 'Roboto Mono', monospace;
