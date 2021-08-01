@@ -154,24 +154,6 @@ button {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-footer p {
-    direction: ltr;
-    font-size: medium;
-    line-height: 2rem;
-    color: var(--mode-color);
-    text-align: center;
-    padding-bottom: 1.5em;
-}
-
-footer>p a {
-    text-decoration-line: none;
-    color: crimson;
-}
-
-footer>p span {
-    color: crimson;
-}
-
 @media (hover: hover) {
     [class*="icon"] svg {
         cursor: pointer;
