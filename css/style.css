@@ -130,25 +130,6 @@ div#text p {
     line-height: 3rem;
     color: var(--mode-color);
 }
-
-footer p {
-    direction: rtl;
-    font-size: medium;
-    line-height: 2rem;
-    color: var(--mode-color);
-    text-align: center;
-    padding-bottom: 1.5em;
-}
-
-footer>p a {
-    text-decoration-line: none;
-    color: crimson;
-}
-
-footer>p span {
-    color: crimson;
-}
-
 .btn-outline-dark {
     color: var(--mode-color);
     border-color: var(--mode-color);
