@@ -1,3 +1,4 @@
+   @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
 body{
     background-color: #1E1E21;
 }
@@ -60,6 +61,8 @@ footer > p span {
     color: crimson;
 }
 footer > p a {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration-line: none;
     color: crimson;
 }
 @media (hover: none){
