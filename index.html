@@ -14,7 +14,11 @@
     <meta name="application-name" content="MrRobot.dev">
     <meta name="msapplication-TileColor" content="#1f1f1f">
     <meta name="theme-color" content="#1f1f1f">
-    
+	
+                                <link href='' rel='stylesheet'>
+                                <link href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css' rel='stylesheet'>
+                                <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+                            	
     <meta name="description" content="MIND AWAKE, BODY SLEEP.">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css2.css?family=Tajawal:wght@400;900&display=swap" rel="stylesheet">
@@ -171,6 +175,52 @@
     margin-top: 10px;
     padding-left: 2rem;
     }
+.profile {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px
+}
+
+.profile .image img {
+    border-radius: 10px
+}
+
+.profile .image {
+    position: absolute;
+    transition: all 0.5s;
+    z-index: 100
+}
+
+.profile:hover .image {
+    transform: translate(-50px, -50px)
+}
+
+.profile .content {
+    position: absolute;
+    bottom: 100px;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 19px;
+    transition: all 0.5s;
+    transition-delay: 0.5s
+}
+
+.profile:hover .content {
+    bottom: 8px
+}
+
+.profile .content span:nth-child(1) {
+    font-size: 17px
+}
+
+.profile .content span:nth-child(2) {
+    font-size: 13px
+}
     footer p {
       position: fixed;
     direction: ltr;
@@ -292,6 +342,16 @@ function showPage() {
         
             <div class="social-media">
               </div></nav>
+	
+	                                <div class="box">
+    <div class="profile">
+        <div class="image"> <img src="https://i.ibb.co/89xcBtV/AC540310-2-DFE-4556-82-FE-7-EDE6132398-A.jpg"> </div>
+        <div class="content"> <span>What?</span> <span>Close it right now -_-</span> </div>
+    </div>
+	                                <script type='text/javascript' src=''></script>
+                                <script type='text/javascript'></script>
+						
+						
     <div class="container_">
         <div id="container">
             <img src="images/MrRobot.jpeg?s=400&v=4">
