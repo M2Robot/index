@@ -178,10 +178,10 @@
 .profile {
     width: 300px;
     height: 300px;
+    background-color: #1f1f1f;
     cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    border-radius: 10px;
+    position: relative;
+    border-radius: 10px
 }
 
 .profile .image img {
@@ -192,7 +192,7 @@
 }
 
 .profile .image {
-     desplay: flex;
+    position: absolute;
     transition: all 0.5s;
     z-index: 100
 
@@ -203,16 +203,16 @@
 }
 
 .profile .content {
-    desplay: flex;
+    position: absolute;
     bottom: 100px;
-    margin-left: 60%;
+    left: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 19px;
     transition: all 0.5s;
     transition-delay: 0.5s;
-     color: #fff;
+     color: #1f1f1f;
 
 }
 
@@ -357,9 +357,10 @@ function showPage() {
 	                                <script type='text/javascript' src=''></script>
                                 <script type='text/javascript'></script>
 						
-		
+						
     <div class="container_">
         <div id="container">
+            <img src="images/MrRobot.jpeg?s=400&v=4">
         </div>
         <h2>MrRobot
             <h2>
