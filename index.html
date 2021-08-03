@@ -20,6 +20,9 @@
     <link href="css2.css?family=Tajawal:wght@400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
+	                                <link href='' rel='stylesheet'>
+                                <link href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css' rel='stylesheet'>
+                                <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 	
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
@@ -33,6 +36,7 @@
     <title> MrRobot </title>
 <!--===============================================================================================-->
 <style class="INLINE_PEN_STYLESHEET_ID">
+	@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
     * {
     margin: 0;
     box-sizing: border-box;
@@ -171,6 +175,61 @@
     margin-top: 10px;
     padding-left: 2rem;
     }
+
+.profile {
+    width: 300px;
+    height: 300px;
+    background-color: #1f1f1f;
+    cursor: pointer;
+    position: relative;
+    border-radius: 60px;
+    color: #fff;
+      padding: 0;
+    margin: 0;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+    }
+
+.profile .image img {
+    border-radius: 60px
+}
+
+.profile .image {
+    position: absolute;
+    transition: all 0.5s;
+    z-index: 100
+
+}
+
+.profile:hover .image {
+    transform: translate(-50px, -50px)
+}
+
+.profile .content {
+    position: absolute;
+    bottom: 100px;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 19px;
+    transition: all 0.5s;
+    transition-delay: 0.5s
+}
+
+.profile:hover .content {
+    bottom: 8px
+}
+
+.profile .content span:nth-child(1) {
+    font-size: 17px
+}
+
+.profile .content span:nth-child(2) {
+
     footer p {
       position: fixed;
     direction: ltr;
@@ -294,8 +353,14 @@ function showPage() {
               </div></nav>
     <div class="container_">
         <div id="container">
-            <img src="images/MrRobot.jpeg?s=400&v=4">
-        </div>
+           <div class="box">
+           <div class="profile">
+        <div class="image"> <img src="https://i.ibb.co/89xcBtV/AC540310-2-DFE-4556-82-FE-7-EDE6132398-A.jpg"> </div>
+        <div class="content"> <span>WHAT?</span> <span>Close Me Now!</span> </div>
+    </div>
+</div>
+                                <script type='text/javascript' src=''></script>
+                                <script type='text/javascript'></script>        </div>
         <h2>MrRobot
             <h2>
     </h2></h2></div>
