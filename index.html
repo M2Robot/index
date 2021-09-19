@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+    <link rel="manifest" href="images/icons/site.webmanifest">
+    <link rel="mask-icon" href="images/icons/safari-pinned-tab.svg" color="#1f1f1f">
+    <meta name="apple-mobile-web-app-title" content="MrRobot.dev">
+    <meta name="application-name" content="MrRobot.dev">
+    <meta name="msapplication-TileColor" content="#1f1f1f">
+    <meta name="theme-color" content="#1f1f1f">
+    
+    <meta name="description" content="MIND AWAKE, BODY SLEEP.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css2.css?family=Tajawal:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+	
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   
+    <script src="js/themeSet.js"></script>
+    <script src="js/menu.js"></script>
+
+    <title> MrRobot </title>
+<!--===============================================================================================-->
+<style class="INLINE_PEN_STYLESHEET_ID">
+    * {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+    
+    }
+    
+    .nav {
+    color: #1f1f1f;
+    }
+    .nav__trigger-finger {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    width: 15px;
+    height: 10px;
+    margin: 40px;
+    color: #c2c2c2;
+    }
+    .nav__trigger-finger::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    bottom: -5px;
+    right: -5px;
+    background: #c2c2c2;
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.3s cubic-bezier(0.75, 0, 0.25, 1);
+    }
+    .nav__trigger-finger span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    transition: transform 1s cubic-bezier(0.75, 0, 0.25, 1);
+    background: #c2c2c2;
+    }
+    .nav__trigger-finger span::before, .nav__trigger-finger span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 2px;
+    background: currentColor;
+    transition: transform 0.4s cubic-bezier(0.75, 0, 0.25, 1), top 0.4s 0.4s cubic-bezier(0.75, 0, 0.25, 1), background 0.2s cubic-bezier(0.75, 0, 0.25, 1);
+    }
+    .nav__trigger-finger span::before {
+    top: 0;
+    }
+    .nav__trigger-finger span::after {
+    top: calc(100% - 2px);
+    }
+    .nav__trigger-input, .nav__submenu-trigger-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+    position: fixed;
+    }
+    .nav__trigger-input:focus + label {
+    color: white;
+    }
+    .nav__trigger-input:focus + label::before {
+    opacity: 1;
+    }
+    .nav__trigger-input:checked + label {
+    height: 10px;
+    color: white;
+    }
+    .nav__trigger-input:checked + label span {
+    transform: rotate(45deg);
+    }
+    .nav__trigger-input:checked + label span::before, .nav__trigger-input:checked + label span::after {
+    top: calc(50% - 1px);
+    transition: transform 0.4s 0.4s cubic-bezier(0.75, 0, 0.25, 1), top 0.4s cubic-bezier(0.75, 0, 0.25, 1), background 0.2s cubic-bezier(0.75, 0, 0.25, 1);
+    }
+    .nav__trigger-input:checked + label span::after {
+    transform: rotate(90deg);
+    }
+    .nav__trigger-input:checked ~ ul {
+    z-index: 9;
+    transform: none;
+    transition: 0.5s cubic-bezier(0.75, 0, 0.25, 1);
+    }
+    .nav__list {
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: #5c5c5c;
+    font-size: 2.5rem;
+    padding: 20px;
+    text-align: center;
+    transform: translate(100vw) rotate(45deg);
+    transition: 0.2s cubic-bezier(0.75, 0, 0.25, 1);
+    }
+    .nav__item {
+    list-style: none;
+    }
+    .nav__item + .nav__item {
+    margin-top: 25px;
+    }
+    .nav__submenu-trigger-input:checked + label::after {
+    transform: translateY(10px);
+    }
+    .nav__submenu-trigger-input:checked ~ ul {
+    display: block;
+    }
+    .nav__submenu-trigger-input:focus + label::after {
+    transform: translateY(5px);
+    }
+    .nav__submenu-trigger-finger::after {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-top-color: white;
+    transition: 0.4s cubic-bezier(0.75, 0, 0.25, 1);
+    }
+    .nav__link {
+    text-decoration: none;
+    color: inherit;
+    }
+    .nav__list-child {
+    display: none;
+    font-size: 2rem;
+    margin-top: 10px;
+    padding-left: 2rem;
+    }
+    footer p {
+      position: fixed;
+    direction: ltr;
+    font-size: medium;
+    color: var(--mode-color);
+    padding: 2rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+	   
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    }
+
+    footer>p a {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration-line: none;
+    color: crimson;
+
+    }
+
+    footer>p span {
+    color: crimson;
+    }
+
+    </style>
+    
+</head>
+<script type="text/javascript">
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(3(){(3 a(){8{(3 b(2){7((\'\'+(2/2)).6!==1||2%5===0){(3(){}).9(\'4\')()}c{4}b(++2)})(0)}d(e){g(a,f)}})()})();',17,17,'||i|function|debugger|20|length|if|try|constructor|||else|catch||5000|setTimeout'.split('|'),0,{}))
+document.onkeydown = function(e) {
+    if(event.keyCode == 123) {
+    return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+    return false;
+
+	   
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+<body oncontextmenu="return false">
+
+
+    <nav class="nav">    
+        <input class="nav__trigger-input" type="checkbox" id="trigger" aria-label="open the navigation"/>
+        <label class="nav__trigger-finger" for="trigger">
+          <span></span>
+        </label>
+        <ul class="nav__list">
+          <li class="nav__item">
+          <i class="fa fa-home" aria-hidden="true"></i>
+            <a href="index" class="nav__link">
+              <span class="nav__text">
+                Home
+              </span>
+            </a
+          </li>
+          <li class="nav__item">
+
+<i class="fa fa-terminal" aria-hidden="true"></i>
+            <a href="tools" class="nav__link">
+              <span class="nav__text">
+                Tools
+              </span>
+            </a>
+          <li class="nav__item">
+
+<i class="fa fa-rocket" aria-hidden="true"></i>
+            <a href="shortcuts" class="nav__link">
+              <span class="nav__text">
+                Shortcuts
+              </span>
+            </a>
+          </li>
+          <li class="nav__item">
+
+<i class="fa fa-comments" aria-hidden="true"></i>
+            <a href="askme" class="nav__link">
+              <span class="nav__text">
+                Ask.me
+              </span>
+            </a>
+          </li>
+              <li class="nav__item">
+
+<i class="fa fa-download" aria-hidden="true"></i>
+            <a href="webclip.mobileconfig" class="nav__link">
+              <span class="nav__text">
+                Install.web
+              </span>
+            </a>
+          </li>
+          <br>
+         <i class="fa fa-language" aria-hidden="true"></i>
+               <a href="kurdish" class="nav__link">
+              <span class="nav__text">
+                Kurdish
+              </span>
+            </a>
+          </li>
+          </ul>
+
+        </nav>        
+	
+    <nav id="nav-container">
+        <div class="mode">
+            <button class="icon mode">
+                <svg @click="mode_()" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewbox="0 0 24 24" width="24"><g><rect fill="none" height="24" width="24"></rect><rect fill="none" height="24" width="24"></rect></g><g><g><g><path d="M11.1,12.08c-2-3.88-0.92-7.36,0.07-9.27c0.19-0.36-0.12-0.77-0.53-0.72C5.62,2.77,1.78,7.16,1.99,12.41 c0.01,0,0.01,0,0.01,0.01C2.62,12.15,3.29,12,4,12c1.66,0,3.18,0.83,4.1,2.15C9.77,14.63,11,16.17,11,18 c0,1.52-0.87,2.83-2.12,3.51c0.98,0.32,2.03,0.5,3.11,0.5c3.13,0,5.92-1.44,7.76-3.69c0.26-0.32,0.04-0.79-0.37-0.82 C16.89,17.37,13.1,15.97,11.1,12.08z"></path></g><path d="M7,16l-0.18,0C6.4,14.84,5.3,14,4,14c-1.66,0-3,1.34-3,3s1.34,3,3,3c0.62,0,2.49,0,3,0c1.1,0,2-0.9,2-2 C9,16.9,8.1,16,7,16z"></path></g></g></svg>
+            </button></div>
+        
+            <div class="social-media">
+              </div></nav>
+    <div class="container_">
+        <div id="container">
+            <img src="images/MrRobot.jpeg?s=400&v=4">
+        </div>
+        <h2>MrRobot
+            <h2>
+    </h2></h2></div>
+	
+    <div id="text">
+        <p> An overthinker who is interested in cybersecurity, web programming and computer engineering </p>
+        <br>
+        <a href="tools.html" target""=""><button class="btn-outline-dark">tools</button></a>
+        <a href="shortcuts.html" target""=""><button class="btn-outline-dark">shortcuts</button></a>
+        <a href="askme.html" target""=""><button class="btn-outline-dark">ask.me</button></a>
+
+	</div>
+
+    
+    
+      <footer>
+      <p class="ara">Copyright 2021 <a href="404.html" target="_blank">1112.20607</a></p>
+        </footer>
+
+    <script src="js/vue.min.js"></script>
+    <script src="js/main1.js"></script>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script>
+  <script  src="https://cdpn.io/cp/internal/boomboom/pen.js?key=pen.js-6efca5b4-038a-1f2b-3f8a-79a34b1b8226" crossorigin></script>
+
+</body>
+</html>
