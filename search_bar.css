@@ -1,40 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Cabin:400);
 
 .search-bar {
-	background: #151515;
-	height: 100%;
-	position: absolute;
+	position: flex;
 	text-align: center;
 	width: 100%;
 }
 
-.search-bar:before,
-.search-bar:after {
-	content: '';
-	display: block;	
-	height: 1px;
-	left: 50%;
-	margin: 0 0 0 -400px;
-	position: absolute;
-	width: 800px;
-}
-
-.search-bar:before {
-	background: #444;
-	background: linear-gradient(left, #151515, #444, #151515);
-	top: 192px;
-}
-
-.search-bar:after {
-	background: #000;
-	background: linear-gradient(left, #151515, #000, #151515);	
-	top: 191px;
-}
-
 .search-bar form {
-	background: #111;
-	background: linear-gradient(#1b1b1b, #111);
-	border: 1px solid #000;
+	background: #1E1E21;
+	background: linear-gradient(#1E1E21, #1E1E21);
+	border: 1px solid #1E1E21;
 	border-radius: 5px;
 	box-shadow: inset 0 0 0 1px #272727;
 	display: inline-block;
