@@ -91,7 +91,7 @@ const site = '#';
 function submitted(event) {
 event.preventDefault();
 const url =  site + q.value;
-const win = window.open(url, '_blank');
+const win = window.open(url, '_self');
 win.focus();
 }
 
