@@ -154,7 +154,7 @@ button {
 }
 
     footer p {
-      position: fixed;
+      position: flex;
     direction: ltr;
     font-size: medium;
     color: var(--mode-color);
