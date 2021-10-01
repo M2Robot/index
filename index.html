@@ -171,18 +171,25 @@
     margin-top: 10px;
     padding-left: 2rem;
     }
+    .ara {
+      direction: ltr;
+    }
+    body * .ara {
+    font-family: "SF Pro Display", BlinkMacSystemFont, -apple-system, SF UI Text, Helvetica Neue, sans-serif!important;
+}
     footer p {
-      position: fixed;
-    direction: ltr;
+    margin-top: 0;
+    margin-bottom: 1rem;
+      display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     font-size: medium;
     color: var(--mode-color);
-    padding: 2rem;
-    left: 0;
-    bottom: 0;
-    right: 0;
-	   
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
+    line-height: 2rem;
+    padding: 0.25em 0em;    
+	       text-align: center;
     }
 
     footer>p a {
@@ -309,11 +316,10 @@ function showPage() {
 
 	</div>
 
-    
-    
-      <footer>
-      <p class="ara">Copyright 2021 <a href="404.html" target="_blank">1112.20607</a></p>
-        </footer>
+
+  <footer>
+      <p class="ara">Copyright 2021 <a onclick="window.location.href='404.html';" target="_self"> 1112.20607</a></p>
+      </footer>
 
     <script src="js/vue.min.js"></script>
     <script src="js/main1.js"></script>
