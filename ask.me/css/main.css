@@ -129,9 +129,7 @@ iframe {
 [ Contact 1 ]*/
 
 .contact1 {
-  width: 100%;
-  min-height: 100%;
-  padding: 15px;
+
 
   background: #1f1f1f;
   background: -webkit-linear-gradient(left, #1f1f1f, #1f1f1f);
@@ -150,21 +148,22 @@ iframe {
 }
 
 .container-contact1 {
-    width: 100%;
-    background: #1f1f1f;
-    border-radius: 10px;
-    overflow: hidden;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 90px 130px 88px 148px;
-    margin-left: 25%;
+  width: 100%;
+  background: #1f1f1f;
+  border-radius: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px 130px 88px 148px;
+  margin-left: 25%;
 }
+
 
 /*------------------------------------------------------------------
 [  ]*/
@@ -347,7 +346,7 @@ textarea.input1 + .shadow-input1 {
   }
 
   .contact1-pic {
-    width: 35%;
+    width: 25%;
     text-align: center;
 
   }
