@@ -150,21 +150,20 @@ iframe {
 }
 
 .container-contact1 {
-  width: 1163px;
-  background: #1f1f1f;
-  border-radius: 10px;
-  overflow: hidden;
-
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-
-  padding: 90px 130px 88px 148px;
+    width: 100%;
+    background: #1f1f1f;
+    border-radius: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 130px 88px 148px;
+    margin-left: 25%;
 }
 
 /*------------------------------------------------------------------
