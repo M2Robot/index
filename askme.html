@@ -1,18 +1,6 @@
 <html lang="en"><head>
-	<title>Ask - Me</title>
+	<title>Contact V1</title>
 	<meta charset="UTF-8">
-
-<!--===============================================================================================-->
-	<link rel="apple-touch-icon" sizes="180x180" href="ask.me/images/icons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="ask.me/images/icons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="ask.me/images/icons/favicon-16x16.png">
-	<link rel="manifest" href="ask.me/images/icons/site.webmanifest">
-	<link rel="mask-icon" href="ask.me/images/icons/safari-pinned-tab.svg" color="#8b8f91">
-	<meta name="apple-mobile-web-app-title" content="ask.me">
-	<meta name="application-name" content="ask.me">
-	<meta name="msapplication-TileColor" content="#fbfdff">
-	<meta name="theme-color" content="#ffffff">
-<!--===============================================================================================-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="ask.me/images/icons/favicon.png">
@@ -30,8 +18,8 @@
 	<link rel="stylesheet" type="text/css" href="ask.me/css/util.css">
 	<link rel="stylesheet" type="text/css" href="ask.me/css/main.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 <!--===============================================================================================-->
 <script>
 	window.console = window.console || function(t) {};
@@ -45,75 +33,51 @@
 	  window.parent.postMessage("resize", "*");
 	}
   </script>
+  
   <!--===============================================================================================-->
   <style>
 	@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
-	html, body {
-    font-family: 'Roboto Mono', monospace;
-    height: 100%;
-    margin: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-	img {
-    display: block;
-    margin-left: -70px;
-    margin-right: auto;
+	html,
+	body {
+	  font-family: 'Roboto Mono', monospace;
+	  height: 100%;
 	}
-
+	.container {
+	  height: 100%;
+	  width: 100%;
+	  justify-content: center;
+	  align-items: center;
+	  display: flex;
+	}
 	.text {
-    font-size: 25px;
-    color: #fafafa;
-    margin-left: -35px;
-    display: flex;
+	  font-weight: 100;
+	  font-size: 28px;
+	  color: #fafafa;
 	}
 	.dud {
 	  color: #757575;
 	}
-	footer p {
-    direction: rtl;
-    font-size: small;
-    line-height: 2rem;
-    color: var(--mode-color);
-    text-align: center;
-    padding-bottom: 1.5em;
-	background-color: #1f1f1f;
-	color: #fafafa;
-}
-
-footer>p a {
-    text-decoration-line: none;
-    color: crimson;
-}
-
-footer>p span {
-    color: crimson;
-}
-
 	</style>
 	<!--===============================================================================================-->
 </head>
-<body oncontextmenu="return false" style="background-color:#1f1f1f;text-align:center">
+<body oncontextmenu="return false" style="background-color:#1f1f1f;text-align:center">>
 
 
 	<div class="contact1">	
 		<div class="container-contact1">
 			
 			<form action="https://formsubmit.co/zsadthoughts@gmail.com" method="POST" class="contact1-form validate-form">
-				<input type="hidden" name="_next" value="https://www.mrrobot.ga/thanks.html">
 				
 				<img src="ask.me/images/message.png" alt="IMG">
 
-				<br>
-				<br>
-				<div class="text"></div>
-				<br>
-				<br>
-				<br>
+
+				<div class="container">
+					<div class="text"></div>
+				  </div>
+					<link rel="stylesheet" type="text/css" href="text-animation.css">
+				  	<br>
 					<div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-					<textarea class="input1" name="message" placeholder="Message" required></textarea><span class="shadow-input1"></span>
+					<textarea class="input1" name="message" placeholder="Message" required=""></textarea><span class="shadow-input1"></span>
 				</div>
 
 				<div class="wrap-input1 validate-input" data-validate="Message is required">
@@ -138,6 +102,17 @@ footer>p span {
 	</div>
 
 
+
+    <!-- Copyright -->
+	<div class="text-center">
+    <div class="text-white p-3" style="background-color:#1f1f1f;">
+		© 2020 Copyright:
+		<a class="text-white" href="https://mrrobot.ga/">MrRobot.com</a>
+	  </div>
+	  <!-- Copyright -->
+	</footer>
+	</div>
+	<!-- Footer -->
 
 
 <!--===============================================================================================-->
@@ -257,8 +232,6 @@ next();
 <!--===============================================================================================-->
 	<script src="ask.me/js/main.js"></script>
 
-	<footer>
-		<p class="ara">Copyright 2021 <a onclick="window.location.href='404.html';" target="_self"> 1112.20607</a></p>
-  </footer>
-  
+
+
 </body></html>
