@@ -6,6 +6,8 @@
   <meta property="og:title" content="">
   <meta property="og:description" content="">
   <meta property="og:image" content="/img/icon.ico">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
  <link rel="icon" href="https://i.ibb.co/7NQzKNr/tumblr-7e9b61d46f20a059c33c49799578419b-a6f3460a-640.png">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
@@ -41,7 +43,18 @@ function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById("myDiv").style.display = "block";
 }
-</script></head>
+</script>
+<style type="text/css">
+  .btn-group-lg>.btn, .btn-lg {
+      padding: .5rem 1rem;
+      font-size: -1.75rem;
+      line-height: 1.5;
+      border-radius: .3rem;
+      text-align: center;
+      margin-left: 41%;
+  }
+  </style>
+</head>
 
     
 
@@ -76,9 +89,11 @@ function showPage() {
     <h3 class="text-center ara" style="color: #fff; margin-bottom: 40px" id="text_is"> Tools : </h3>
     <div class="card-deck">
       <div class="row justify-content-center">
-        <div id="text">
-        <a href="index.html" target""=""><button class="btn-outline-dark">Back</button></a>
-    </div>
+        <div class="container">
+          <a href="https://mrrobot.ga/" class="btn btn-info btn-lg">
+            <span class="glyphicon glyphicon-chevron-left"></span> < HOME
+          </a>
+      </div>
 <br>
         <!--Start Card-->
         <div class="col-auto mb-3">
@@ -183,4 +198,7 @@ function showPage() {
                 <div data-range="61-80" class="segment"><span></span></div>
                 <div data-range="81-100" class="segment"><span></span></div>
             </div>
-        </div></body></html>
+        </div>
+        <script src="js/encode.js"></script>
+      </body>
+      </html>
