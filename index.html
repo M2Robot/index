@@ -232,7 +232,6 @@
            cursor: pointer;
            display: inline-block;
           overflow: hidden;
-	color: var(--mode-color);
            background-color: transparent;
            margin-left: -145%;
           }
@@ -240,6 +239,7 @@
           width: 36px;
           height: 24px;
           position: relative;
+          
         }
         .hamburger:hover .hamburger__inner {
           transform: translate(-51px, 50%);
@@ -255,7 +255,7 @@
         .hamburger__inner {
           width: 100%;
           height: 2px;
-          background-color: #ffff;
+          background-color: #525252;
           border-radius: 4px;
           position: absolute;
           transition-property: transform, opacity;
@@ -268,7 +268,7 @@
         .hamburger__inner::before, .hamburger__inner::after {
           width: 100%;
           height: 2px;
-          background-color: #ffff;
+          background-color: #525252;
           border-radius: 4px;
           position: absolute;
           transition-property: transform, opacity;
