@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html {
+  text-decoration: none!important;
+}
+.container{
+  text-align: center;
+  padding: 50px;
+  text-decoration: none!important;
+}
+
+.card{
+  text-align: center;
+  border: 1px;
+  border-color: #fff;
+  width: 300px;
+  height: 420px;
+  float: left;
+  float: inline-start;
+  background-color: #1E2B32;
+  border-radius: 10px 10px;
+  text-decoration: none!important;
+}
+
+.header{
+  border-radius: 10px 10px 0px 0px;
+  padding: 5px;
+  background-color: #2A3942;
+  text-decoration: none!important;
+}
+
+h3{
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 1rem;
+}
+
+.iconM{
+  font-size: 18px;
+  margin-left: 170px;
+  color: #2f89fc;
+}
+
+.icon{
+  margin-right: 8px;
+}
+
+.body li{
+  transition: 1s all;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 15px;
+  margin-left: -40px;
+  margin-top: 0px;
+  color: #fff;
+  list-style: none;
+  display: block;
+  border-top-right-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+  text-decoration-line: none;
+}
+
+li:hover{
+  transition: 1s all;
+  color: #2f89fc;
+  background-color: rgba(42, 56, 65, 0.82);
+  border-top-right-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+  cursor: pointer;
+  text-decoration: none!important;
+}
+.body {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.body > li{
+  float: center;
+  text-decoration-line: none;
+}
+
+.body li ul{
+  background: #1E2B32;
+  margin-left: 280px;
+  margin-top: -38px;
+  display: none;
+  position: absolute;
+  text-align: center;
+  border-top-right-radius: 15px 15px;
+  border-bottom-right-radius: 15px 15px;
+  text-decoration-line: none;
+}
+
+.body li:hover > ul{
+  display: block;
+  cursor: pointer;
+  text-decoration: none!important;
+}
