@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-cookie-consent-settings",
+  "version": "2.1.0",
+  "description": "Settings dialog in Bootstrap 4 and framework to handle the German and EU law (may 2020) about cookies in a website",
+  "browser": "./src/bootstrap-cookie-banner.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaack/bootstrap-cookie-banner.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "cookie",
+    "eu",
+    "gdpr",
+    "dsgvo"
+  ],
+  "author": "Stefan Haack (shaack.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaack/bootstrap-cookie-banner/issues"
+  },
+  "homepage": "https://shaack.com",
+  "main": "src/bootstrap-cookie-consent-settings.js"
+}
