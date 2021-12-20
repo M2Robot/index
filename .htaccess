@@ -1,2 +1,0 @@
-Header set X-Content-Type-Options nosniff
-Header set Content-Security-Policy “script-src 'none';”
