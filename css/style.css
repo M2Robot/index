@@ -1,0 +1,251 @@
+:root {
+    --mode-color: #f8f8f8;
+    --backgroundColor: #1f1f1f;
+}
+
+body {
+    height: 100vh;
+    max-width: 100vw;
+    background-color: var(--backgroundColor);
+    transition: ease-in-out .46s;
+}
+nav#nav-container {
+    display: flex;
+    height: 15vh;
+    max-width: 100vw;
+}
+
+div.social-media {
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    order: 2;
+    height: 75px;
+    width: 200px;
+}
+
+button.mode {
+    all: initial;
+}
+
+button.mode {
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    height: 75px;
+    width: 200px;
+}
+
+[class$="icon"]>a svg {
+    fill: #9e9e9e;
+    transition: ease-out 100ms;
+}
+
+
+[class^="mode"] button svg:hover {
+    fill: #6b6767;
+    transition: ease-out 100ms;
+}
+
+[class="mode"] button>svg {
+    fill: var(--mode-color);
+    transition: ease-in-out .96s
+}
+
+div.container_ {
+    display: flex;
+    flex-direction: row;
+}
+
+div#container {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 40vw;
+}
+
+#container>img {
+    margin-left: 60%;
+    order: 1;
+    height: 200px;
+    border-radius: 50%;
+}
+
+div.container_ h2 {
+    direction: rtl;
+    color: var(--mode-color);
+    margin-left: auto;
+    padding-right: 5rem;
+    align-self: flex-end;
+    padding-bottom: 1.5em;
+}
+
+div.gallery-images {
+    max-width: 100vw;
+    margin: 0px 70px;
+}
+
+div.gallery-images div.img-box {
+    margin-top: 30px;
+    text-align: center;
+}
+
+div.gallery-images .img-box img {
+    margin: 10px 15px;
+    height: auto;
+    max-width: calc(85% / 2);
+}
+
+.gallery-images h2 {
+    text-align: center;
+    direction: rtl;
+    color: var(--mode-color);
+    margin: auto;
+}
+
+div#text {
+    margin: 0rem 20rem;
+    text-align: center;
+}
+
+div#text p {
+    direction: rtl;
+    font-size: x-large;
+    line-height: 3rem;
+    color: var(--mode-color);
+}
+.btn-outline-dark {
+    color: var(--mode-color);
+    border-color: var(--mode-color);
+}
+
+button {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+    footer p {
+      position: flex;
+    direction: ltr;
+    font-size: medium;
+    color: var(--mode-color);
+    padding: 2rem;
+    left: 0;
+    bottom: 0;
+    right: 0;
+	   
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    }
+
+    footer>p a {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration-line: none;
+    color: crimson;
+
+    }
+
+    footer>p span {
+    color: crimson;
+    }
+
+@media (hover: hover) {
+    [class*="icon"] svg {
+        cursor: pointer;
+    }
+    button {
+        cursor: pointer;
+    }
+    button[class*="btn"]:hover {
+        background-color: #0090d37c;
+    }
+}
+
+@media (hover: none) {
+    a {
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
+@media only screen and (max-width: 1285px) {
+    div.gallery-images {
+        margin: 0px 5px;
+    }
+    div.gallery-images .img-box img {
+        margin: 0px 15px;
+        max-width: calc(85% / 3);
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    div.gallery-images {
+        margin: 0px 5px;
+    }
+    div.gallery-images .img-box img {
+        margin: 0px 15px;
+        max-width: calc(85% / 2);
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    div.social-media {
+        padding-right: 10px;
+    }
+    button.mode {
+        padding-left: 20px;
+    }
+    div#container {
+        width: 100vw;
+        justify-content: center;
+    }
+    #container>img {
+        margin: 0;
+    }
+    div.container_ {
+        flex-direction: column;
+    }
+    div#container2 {
+        width: 100vw;
+    }
+    div.container_ h2 {
+        font-size: 20px;
+        text-align: center;
+        padding: 0;
+        margin: auto;
+    }
+    div#text {
+        margin: 0px 2.5rem;
+    }
+    div#text p {
+        direction: rtl;
+        font-size: medium;
+        line-height: 2rem;
+        color: var(--mode-color);
+    }
+    div.gallery-images {
+        margin: 0;
+    }
+    div.gallery-images .img-box img {
+        margin: 10px 0px;
+        max-width: calc(100vw - 50px);
+        width: 100%;
+    }
+}
