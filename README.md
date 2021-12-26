@@ -1,7 +1,7 @@
 # Fsociety - MrRobot
 full features website ~ do not clone it!
 
-www.MrRobot.ga > 
+MrRobot  > 
 
 English | Kurdish<br>
 index.html | kurdish.html<br>
