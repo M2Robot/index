@@ -1,0 +1,77 @@
+   @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+body{
+    background-color: #1E1E21;
+}
+body * .ara{
+font-family: "SF Pro Display", BlinkMacSystemFont, -apple-system, SF UI Text, Helvetica Neue, sans-serif!important;
+}
+nav{
+font-family: "SF Pro Display", BlinkMacSystemFont, -apple-system, SF UI Text, Helvetica Neue, sans-serif!important;
+    background-color: #161616;
+}
+body > div.pricing-header{
+    background: linear-gradient(135deg, #959595 25%, transparent 25%) -50px 0, linear-gradient(225deg, #4d4b4b 25%, transparent 25%) -50px 0, linear-gradient(315deg, #dddddd 25%, transparent 25%), linear-gradient(45deg, #838383 25%, transparent 25%);
+    background-size: 100px 100px;
+    text-shadow: 4px 2px 8px #000;
+}
+nav a, button, p{
+    color: #fff;
+}
+.nav-link.disabled {
+    color: #9b9b9b;
+}
+.card-body p, .card-body h5{
+    text-align: center;
+    direction:ltr;
+}
+svg {
+    fill:#fff;
+}
+div.pricing-header{
+    color: #fff;
+}
+svg.icon{
+    background: linear-gradient(45deg, #FD0000, #BA00B4);
+}
+.ara{
+    direction: ltr;
+}
+nav a[href]:hover{
+    color: #9c9c9c;
+}
+
+.icon,
+.text {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+div.card{
+    width: calc(100% - 60px);
+}
+
+footer p {
+    direction: ltr;
+    font-size: medium;
+    line-height: 2rem;
+    color: fff;
+    padding: 0.25em 0em;
+
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+
+}
+footer > p span {
+    color: crimson;
+}
+footer > p a {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration-line: none;
+    color: crimson;
+}
+
+@media (hover: none){
+    a {
+        -webkit-tap-highlight-color: transparent;
+    }
+    }
